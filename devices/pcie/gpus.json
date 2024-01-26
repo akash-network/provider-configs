@@ -3,34 +3,44 @@
     "name": "nvidia",
     "devices": {
       "20b0": {
-        "name": "",
+        "name": "a100",
         "interface": "SXM4",
         "memory_size": "40Gi"
       },
       "20b1": {
-        "name": "",
+        "name": "a100",
         "interface": "PCIe",
         "memory_size": "40Gi"
       },
       "20b2": {
-        "name": "",
+        "name": "a100",
         "interface": "SXM4",
         "memory_size": "80Gi"
       },
       "20b3": {
-        "name": "",
+        "name": "a100",
         "interface": "SXM",
         "memory_size": "64Gi"
       },
       "20b5": {
-        "name": "",
+        "name": "a100",
         "interface": "PCIe",
         "memory_size": "80Gi"
       },
       "20f1": {
-        "name": "",
+        "name": "a100",
         "interface": "PCIe",
         "memory_size": "40Gi"
+      },
+      "20f3": {
+        "name": "a800",
+        "interface": "SXM4",
+        "memory_size": "80Gi"
+      },
+      "1eb8": {
+        "name": "t4",
+        "interface": "PCIe",
+        "memory_size": "16Gi"
       }
     }
   }
