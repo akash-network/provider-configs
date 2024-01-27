@@ -41,6 +41,11 @@
         "name": "t4",
         "interface": "PCIe",
         "memory_size": "16Gi"
+      },
+      "2489": {
+        "name": "rtx3060ti",
+        "interface": "PCIe",
+        "memory_size": "8Gi"
       }
     }
   }
