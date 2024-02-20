@@ -63,17 +63,17 @@
         "memory_size": "32Gi"
       },
       "1e30": {
-        "name": "RTX8000",
+        "name": "rtx8000",
         "interface": "PCIe",
         "memory_size": "48Gi"
       },
       "2488": {
-        "name": "RTX3070Ti",
+        "name": "rtx3070Ti",
         "interface": "PCIe",
         "memory_size": "8Gi"
       },
       "2484": {
-        "name": "RTX3070",
+        "name": "rtx3070",
         "interface": "PCIe",
         "memory_size": "8Gi"
       }
