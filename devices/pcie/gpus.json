@@ -46,6 +46,36 @@
         "name": "rtx3060ti",
         "interface": "PCIe",
         "memory_size": "8Gi"
+      },
+      "2204": {
+        "name": "rtx3090",
+        "interface": "PCIe",
+        "memory_size": "24Gi"
+      },
+      "2684": {
+        "name": "rtx4090",
+        "interface": "PCIe",
+        "memory_size": "24Gi"
+      },
+      "1db5": {
+        "name": "v100",
+        "interface": "SXM2",
+        "memory_size": "32Gi"
+      },
+      "1e30": {
+        "name": "RTX8000",
+        "interface": "PCIe",
+        "memory_size": "48Gi"
+      },
+      "2488": {
+        "name": "RTX3070Ti",
+        "interface": "PCIe",
+        "memory_size": "8Gi"
+      },
+      "2484": {
+        "name": "RTX3070",
+        "interface": "PCIe",
+        "memory_size": "8Gi"
       }
     }
   }
