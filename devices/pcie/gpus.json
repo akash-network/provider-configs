@@ -76,6 +76,16 @@
         "name": "rtx3070",
         "interface": "PCIe",
         "memory_size": "8Gi"
+      },
+      "1bb3": {
+        "name": "p4",
+        "interface": "PCIe",
+        "memory_size": "8Gi"
+      },
+      "15f8": {
+        "name": "p100",
+        "interface": "PCIe",
+        "memory_size": "16Gi"
       }
     }
   }
