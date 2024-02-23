@@ -86,6 +86,11 @@
         "name": "p100",
         "interface": "PCIe",
         "memory_size": "16Gi"
+      },
+      "2531": {
+        "name": "rtxa2000",
+        "interface": "PCIe",
+        "memory_size": "6Gi"
       }
     }
   }
