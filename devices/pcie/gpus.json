@@ -62,6 +62,11 @@
         "interface": "SXM2",
         "memory_size": "32Gi"
       },
+      "1eb1": {
+        "name": "rtx4000",
+        "interface": "PCIe",
+        "memory_size": "8Gi"
+      },
       "1e30": {
         "name": "rtx8000",
         "interface": "PCIe",
