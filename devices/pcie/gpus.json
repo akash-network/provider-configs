@@ -68,7 +68,7 @@
         "memory_size": "48Gi"
       },
       "2488": {
-        "name": "rtx3070Ti",
+        "name": "rtx3070",
         "interface": "PCIe",
         "memory_size": "8Gi"
       },
