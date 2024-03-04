@@ -91,6 +91,16 @@
         "name": "rtxa2000",
         "interface": "PCIe",
         "memory_size": "6Gi"
+      },
+      "2331": {
+        "name": "h100",
+        "interface": "PCIe",
+        "memory_size": "80Gi"
+      },
+      "2230": {
+        "name": "rtxa6000",
+        "interface": "PCIe",
+        "memory_size": "48Gi"
       }
     }
   }
