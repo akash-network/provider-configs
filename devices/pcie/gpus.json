@@ -97,6 +97,11 @@
         "interface": "PCIe",
         "memory_size": "6Gi"
       },
+      "2330": {
+        "name": "h100",
+        "interface": "SXM5",
+        "memory_size": "80Gi"
+      },
       "2331": {
         "name": "h100",
         "interface": "PCIe",
