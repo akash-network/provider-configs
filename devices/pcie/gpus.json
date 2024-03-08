@@ -87,6 +87,11 @@
         "interface": "PCIe",
         "memory_size": "8Gi"
       },
+      "1b38": {
+        "name": "p40",
+        "interface": "PCIe",
+        "memory_size": "24Gi"
+      },
       "15f8": {
         "name": "p100",
         "interface": "PCIe",
