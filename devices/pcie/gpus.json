@@ -72,6 +72,11 @@
         "interface": "PCIe",
         "memory_size": "48Gi"
       },
+      "1e78": {
+        "name": "rtx8000",
+        "interface": "PCIe",
+        "memory_size": "48Gi"
+      },
       "2488": {
         "name": "rtx3070",
         "interface": "PCIe",
