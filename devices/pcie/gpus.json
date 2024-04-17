@@ -2,6 +2,11 @@
   "10de": {
     "name": "nvidia",
     "devices": {
+      "2235": {
+        "name": "a40",
+        "interface": "PCIe",
+        "memory_size": "48Gi"
+      },
       "20b0": {
         "name": "a100",
         "interface": "SXM4",
