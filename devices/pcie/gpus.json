@@ -133,5 +133,15 @@
         "memory_size": "48Gi"
       }
     }
+  },
+  "1002": {
+    "name": "amd",
+    "devices": {
+      "738c": {
+        "name": "mi100",
+        "interface": "PCIe",
+        "memory_size": "32Gi"
+      }
+    }
   }
 }
