@@ -347,25 +347,10 @@
         "interface": "PCIe",
         "memory_size": "16Gi"
       },
-      "1eb0": {
-        "name": "rtx6000",
-        "interface": "PCIe",
-        "memory_size": "24Gi"
-      },
       "1eb5": {
         "name": "rtx5000",
         "interface": "PCIe",
         "memory_size": "16Gi"
-      },
-      "1eb1": {
-        "name": "rtx4000",
-        "interface": "PCIe",
-        "memory_size": "8Gi"
-      },
-      "1e30": {
-        "name": "rtx8000",
-        "interface": "PCIe",
-        "memory_size": "48Gi"
       },
       "1b30": {
         "name": "p6000",
@@ -392,25 +377,10 @@
         "interface": "PCIe",
         "memory_size": "5Gi"
       },
-      "1eb0": {
-        "name": "rtx5000",
+      "1cba": {
+        "name": "p2000",
         "interface": "PCIe",
-        "memory_size": "16Gi"
-      },
-      "1e30": {
-        "name": "rtx6000",
-        "interface": "PCIe",
-        "memory_size": "24Gi"
-      },
-      "1e30": {
-        "name": "rtx8000",
-        "interface": "PCIe",
-        "memory_size": "48Gi"
-      },
-      "1eb1": {
-        "name": "rtx4000",
-        "interface": "PCIe",
-        "memory_size": "8Gi"
+        "memory_size": "4Gi"
       }
     }
   },
