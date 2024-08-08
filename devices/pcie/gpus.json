@@ -7,6 +7,11 @@
         "interface": "PCIe",
         "memory_size": "2Gi"
       },
+      "1401": {
+        "name": "gtx960",
+        "interface": "PCIe",
+        "memory_size": "4Gi"
+      },
       "1406": {
         "name": "gtx960",
         "interface": "PCIe",
@@ -22,20 +27,10 @@
         "interface": "PCIe",
         "memory_size": "4Gi"
       },
-      "13f1": {
-        "name": "gtx950",
-        "interface": "PCIe",
-        "memory_size": "2Gi"
-      },
-      "17c2": {
+      "17c8": {
         "name": "gtx980ti",
         "interface": "PCIe",
         "memory_size": "6Gi"
-      },
-      "17c8": {
-        "name": "gtx980",
-        "interface": "PCIe",
-        "memory_size": "8Gi"
       },
       "1b80": {
         "name": "gtx1080",
@@ -54,20 +49,20 @@
       },
       "1b82": {
         "name": "gtx1070ti",
-        "interface": "PCIe", 
+        "interface": "PCIe",
         "memory_size": "8Gi"
       },
-      "1c82": {
+      "1c81": {
         "name": "gtx1050",
         "interface": "PCIe",
         "memory_size": "2Gi"
       },
-      "1c83": {
+      "1c82": {
         "name": "gtx1050ti",
         "interface": "PCIe",
         "memory_size": "4Gi"
       },
-      "1c8c": {
+      "1c83": {
         "name": "gtx1050",
         "interface": "PCIe",
         "memory_size": "3Gi"
@@ -75,67 +70,77 @@
       "1c02": {
         "name": "gtx1060",
         "interface": "PCIe",
-        "memory_size": "6Gi"
+        "memory_size": "3Gi"
       },
       "1c03": {
         "name": "gtx1060",
         "interface": "PCIe",
-        "memory_size": "3Gi"
+        "memory_size": "6Gi"
       },
-      "1b00": {
+      "1c04": {
         "name": "gtx1060",
         "interface": "PCIe",
         "memory_size": "5Gi"
       },
+      "1c06": {
+        "name": "gtx1060",
+        "interface": "PCIe",
+        "memory_size": "6Gi"
+      },      
       "1d01": {
-        "name": "gtx1030",
-        "interface": "PCIe", 
-        "memory_size": "2Gi"
-      },
-      "1d10": {
         "name": "gt1030",
         "interface": "PCIe",
         "memory_size": "2Gi"
       },
+      "1d10": {
+        "name": "mx150",
+        "interface": "PCIe",
+        "memory_size": "2Gi"
+      },
+      "1d10": {
+        "name": "mx150",
+        "interface": "PCIe",
+        "memory_size": "4Gi"
+      },
       "2187": {
-        "name": "gtx1630",
-        "interface": "PCIe",
-        "memory_size": "4Gi" 
-      },
-      "2184": {
-        "name": "gtx1650",
-        "interface": "PCIe",
-        "memory_size": "4Gi"
-      },
-      "2180": {
-        "name": "gtx1650",
-        "interface": "PCIe",
-        "memory_size": "4Gi"
-      },
-      "1f95": {
         "name": "gtx1650super",
         "interface": "PCIe",
         "memory_size": "4Gi"
       },
-      "1e04": {
-        "name": "gtx1660", 
+      "2184": {
+        "name": "gtx1660",
         "interface": "PCIe",
         "memory_size": "6Gi"
       },
-      "1f02": {
-        "name": "gtx1660super",
+      "1f95": {
+        "name": "gtx1650ti",
         "interface": "PCIe",
-        "memory_size": "6Gi"  
+        "memory_size": "4Gi"
       },
-      "1e81": {
+      "2182": {
         "name": "gtx1660ti",
         "interface": "PCIe",
         "memory_size": "6Gi"
       },
+      "1e04": {
+        "name": "rtx2080ti",
+        "interface": "PCIe",
+        "memory_size": "11Gi"
+      },
+      "1f02": {
+        "name": "rtx2070",
+        "interface": "PCIe",
+        "memory_size": "8Gi"
+      },
+      "1e81": {
+        "name": "rtx2080super",
+        "interface": "PCIe",
+        "memory_size": "8Gi"
+      },
       "1e89": {
         "name": "rtx2060",
         "interface": "PCIe",
-        "memory_size": "6Gi"  
+        "memory_size": "4Gi"
       },
       "1f06": {
         "name": "rtx2060super",
@@ -143,33 +148,23 @@
         "memory_size": "8Gi"
       },
       "1e07": {
-        "name": "rtx2070", 
+        "name": "rtx2080ti",
         "interface": "PCIe",
-        "memory_size": "8Gi"
+        "memory_size": "11Gi"
       },
       "1e84": {
         "name": "rtx2070super",
         "interface": "PCIe",
         "memory_size": "8Gi"
       },
-      "1e02": {
+      "1e87": {
         "name": "rtx2080",
         "interface": "PCIe",
         "memory_size": "8Gi"
       },
-      "1e87": {
-        "name": "rtx2080super",
-        "interface": "PCIe",
-        "memory_size": "8Gi"  
-      },
-      "1e05": {
-        "name": "rtx2080ti",
-        "interface": "PCIe",
-        "memory_size": "11Gi"
-      },
       "2484": {
         "name": "rtx3070",
-        "interface": "PCIe", 
+        "interface": "PCIe",
         "memory_size": "8Gi"
       },
       "2488": {
@@ -178,29 +173,9 @@
         "memory_size": "8Gi"
       },
       "2486": {
-        "name": "rtx3070ti",
+        "name": "rtx3060ti",
         "interface": "PCIe",
-        "memory_size": "8Gi"  
-      },
-      "2216": {
-        "name": "rtx3080",
-        "interface": "PCIe",
-        "memory_size": "10Gi"
-      },
-      "2206": {
-        "name": "rtx3080ti",
-        "interface": "PCIe",  
-        "memory_size": "12Gi"
-      },
-      "2204": {
-        "name": "rtx3090",
-        "interface": "PCIe",
-        "memory_size": "24Gi" 
-      },
-      "2202": {
-        "name": "rtx3090ti",
-        "interface": "PCIe",
-        "memory_size": "24Gi"
+        "memory_size": "8Gi"
       },
       "2489": {
         "name": "rtx3060ti",
@@ -209,53 +184,58 @@
       },
       "2487": {
         "name": "rtx3060",
-        "interface": "PCIe", 
+        "interface": "PCIe",
         "memory_size": "12Gi"
       },
-      "2485": {
-        "name": "rtx3060",
+      "2216": {
+        "name": "rtx3080",
         "interface": "PCIe",
-        "memory_size": "8Gi"
+        "memory_size": "10Gi"
       },
-      "2214": {
-        "name": "rtx3050",
-        "interface": "PCIe", 
-        "memory_size": "8Gi"
-      },
-      "2182": {
-        "name": "rtx3050",
+      "2206": {
+        "name": "rtx3080",
         "interface": "PCIe",
-        "memory_size": "4Gi"  
+        "memory_size": "12Gi"
+      },
+      "2204": {
+        "name": "rtx3090",
+        "interface": "PCIe",
+        "memory_size": "24Gi"
+      },
+      "2203": {
+        "name": "rtx3090ti",
+        "interface": "PCIe",
+        "memory_size": "24Gi"
       },
       "2684": {
         "name": "rtx4090",
         "interface": "PCIe",
         "memory_size": "24Gi"
       },
-      "2682": {
+      "2704": {
         "name": "rtx4080",
         "interface": "PCIe",
         "memory_size": "16Gi"
       },
-      "2734": {
+      "2782": {
         "name": "rtx4070ti",
         "interface": "PCIe",
-        "memory_size": "12Gi"  
+        "memory_size": "12Gi"
       },
-      "2781": {
+      "2786": {
         "name": "rtx4070",
         "interface": "PCIe",
         "memory_size": "12Gi"
       },
-      "2735": {
+      "2805": {
         "name": "rtx4060ti",
-        "interface": "PCIe", 
+        "interface": "PCIe",
         "memory_size": "8Gi"
       },
-      "2765": {
+      "2882": {
         "name": "rtx4060",
         "interface": "PCIe",
-        "memory_size": "8Gi" 
+        "memory_size": "8Gi"
       },
       "2230": {
         "name": "rtxa6000",
@@ -295,12 +275,12 @@
       "2235": {
         "name": "a40",
         "interface": "PCIe",
-        "memory_size": "48Gi"  
+        "memory_size": "48Gi"
       },
       "20b0": {
         "name": "a100",
         "interface": "SXM4",
-        "memory_size": "40Gi"  
+        "memory_size": "40Gi"
       },
       "20b1": {
         "name": "a100",
@@ -314,12 +294,12 @@
       },
       "20b3": {
         "name": "a100",
-        "interface": "SXM", 
-        "memory_size": "64Gi" 
+        "interface": "SXM",
+        "memory_size": "64Gi"
       },
       "20b5": {
         "name": "a100",
-        "interface": "PCIe", 
+        "interface": "PCIe",
         "memory_size": "80Gi"
       },
       "20f1": {
@@ -328,7 +308,7 @@
         "memory_size": "40Gi"
       },
       "20f3": {
-        "name": "a800",  
+        "name": "a800",
         "interface": "SXM4",
         "memory_size": "80Gi"
       },
@@ -363,79 +343,74 @@
         "memory_size": "80Gi"
       },
       "1eb8": {
-        "name": "t4", 
+        "name": "t4",
         "interface": "PCIe",
         "memory_size": "16Gi"
       },
-      "1df6": {
-        "name": "quadro_rtx6000",
+      "1eb0": {
+        "name": "rtx6000",
         "interface": "PCIe",
         "memory_size": "24Gi"
       },
-      "1df2": {
-        "name": "quadro_rtx5000",
+      "1eb5": {
+        "name": "rtx5000",
         "interface": "PCIe",
         "memory_size": "16Gi"
       },
-      "1df5": {
-        "name": "quadro_rtx4000",
+      "1eb1": {
+        "name": "rtx4000",
         "interface": "PCIe",
-        "memory_size": "8Gi"  
+        "memory_size": "8Gi"
       },
-      "1db4": {
-        "name": "quadro_rtx8000",
+      "1e30": {
+        "name": "rtx8000",
         "interface": "PCIe",
         "memory_size": "48Gi"
       },
-      "1c30": {
-        "name": "quadro_p6000",
+      "1b30": {
+        "name": "p6000",
         "interface": "PCIe",
-        "memory_size": "24Gi" 
+        "memory_size": "24Gi"
       },
-      "1c31": {
-        "name": "quadro_p5000",
-        "interface": "PCIe", 
-        "memory_size": "16Gi"
-      },
-      "1bb0": {
-        "name": "quadro_p4000", 
-        "interface": "PCIe", 
+      "13f1": {
+        "name": "m4000",
+        "interface": "PCIe",
         "memory_size": "8Gi"
       },
+      "1bb0": {
+        "name": "p5000",
+        "interface": "PCIe",
+        "memory_size": "16Gi"
+      },
       "1bb1": {
-        "name": "quadro_p2000",
+        "name": "p4000",
+        "interface": "PCIe",
+        "memory_size": "8Gi"
+      },
+      "1c30": {
+        "name": "p2000",
         "interface": "PCIe",
         "memory_size": "5Gi"
       },
-      "1fb9": {
-        "name": "quadro_rtx5000",
+      "1eb0": {
+        "name": "rtx5000",
         "interface": "PCIe",
         "memory_size": "16Gi"
       },
-      "1e36": {
-        "name": "quadro_rtx6000",
-        "interface": "PCIe", 
+      "1e30": {
+        "name": "rtx6000",
+        "interface": "PCIe",
         "memory_size": "24Gi"
       },
-      "1fb6": {
-        "name": "quadro_rtx8000",
+      "1e30": {
+        "name": "rtx8000",
         "interface": "PCIe",
         "memory_size": "48Gi"
       },
-      "1e4c": {
-        "name": "quadro_rtx4000",
+      "1eb1": {
+        "name": "rtx4000",
         "interface": "PCIe",
-        "memory_size": "8Gi" 
-      },
-      "2230": {
-        "name": "rtxa6000",
-        "interface": "PCIe",
-        "memory_size": "48Gi"
-      },
-      "2235": {
-        "name": "a40",
-        "interface": "PCIe",
-        "memory_size": "48Gi"
+        "memory_size": "8Gi"
       }
     }
   },
