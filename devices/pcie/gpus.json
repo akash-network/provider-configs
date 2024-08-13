@@ -250,7 +250,7 @@
       "1e89": {
         "name": "rtx2060",
         "interface": "PCIe",
-        "memory_size": "4Gi"
+        "memory_size": "6Gi"
       },
       "1f06": {
         "name": "rtx2060super",
