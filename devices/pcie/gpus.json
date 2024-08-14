@@ -127,11 +127,6 @@
         "interface": "PCIe",
         "memory_size": "2Gi"
       },
-      "1401": {
-        "name": "gtx960",
-        "interface": "PCIe",
-        "memory_size": "4Gi"
-      },
       "1406": {
         "name": "gtx960",
         "interface": "PCIe",
@@ -171,11 +166,6 @@
         "name": "mx150",
         "interface": "PCIe",
         "memory_size": "2Gi"
-      },
-      "1d10": {
-        "name": "mx150",
-        "interface": "PCIe",
-        "memory_size": "4Gi"
       },
       "1cba": {
         "name": "p2000",
