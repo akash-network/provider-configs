@@ -330,7 +330,7 @@
       "2803": {
         "name": "rtx4060ti",
         "interface": "PCIe",
-        "memory_size": "8Gi"
+        "memory_size": "16Gi"
       },
       "2805": {
         "name": "rtx4060ti",
