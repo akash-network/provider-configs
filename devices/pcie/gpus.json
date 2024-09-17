@@ -222,6 +222,11 @@
         "interface": "PCIe",
         "memory_size": "8Gi"
       },
+      "27b2": {
+        "name": "rtx4000ada",
+        "interface": "PCIe",
+        "memory_size": "20Gi"
+      },
       "1eb5": {
         "name": "rtx5000",
         "interface": "PCIe",
