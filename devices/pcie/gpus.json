@@ -187,6 +187,11 @@
         "interface": "PCIe",
         "memory_size": "8Gi"
       },
+      "27b0": {
+        "name": "rtx4000sffada",
+        "interface": "PCIe",
+        "memory_size": "20Gi"
+      },
       "1b38": {
         "name": "p40",
         "interface": "PCIe",
