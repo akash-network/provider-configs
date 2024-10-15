@@ -217,6 +217,11 @@
         "interface": "PCIe",
         "memory_size": "6Gi"
       },
+      "28b0": {
+        "name": "rtx2000eada",
+        "interface": "PCIe",
+        "memory_size": "16Gi"
+      },
       "2230": {
         "name": "rtxa6000",
         "interface": "PCIe",
