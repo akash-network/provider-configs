@@ -397,6 +397,11 @@
   "1002": {
     "name": "amd",
     "devices": {
+      "66a1": {
+        "name": "mi60",
+        "interface": "PCIe",
+        "memory_size": "32Gi"
+      },
       "738c": {
         "name": "mi100",
         "interface": "PCIe",
