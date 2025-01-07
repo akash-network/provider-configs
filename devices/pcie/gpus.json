@@ -372,6 +372,11 @@
         "interface": "PCIe",
         "memory_size": "24Gi"
       },
+      "2335": {
+        "name": "h200",
+        "interface": "Nothsure",
+        "memory_size": "141Gi"
+      },
       "1eb8": {
         "name": "t4",
         "interface": "PCIe",
