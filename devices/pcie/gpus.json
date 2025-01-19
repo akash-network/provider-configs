@@ -367,6 +367,11 @@
         "interface": "PCIe",
         "memory_size": "16Gi"
       },
+      "2702": {
+        "name": "rtx4080super",
+        "interface": "PCIe",
+        "memory_size": "16Gi"
+      },
       "2684": {
         "name": "rtx4090",
         "interface": "PCIe",
