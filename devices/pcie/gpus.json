@@ -312,6 +312,11 @@
         "interface": "PCIe",
         "memory_size": "8Gi"
       },
+      "25a2": {
+        "name": "rtx3050m",
+        "interface": "PCIe",
+        "memory_size": "4Gi"
+      },
       "2484": {
         "name": "rtx3070",
         "interface": "PCIe",
