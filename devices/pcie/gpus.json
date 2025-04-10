@@ -2,7 +2,7 @@
   "10b0": {
     "name": "nvidia",
     "devices": {
-      "2684": {
+      "f297": {
         "name": "rtx4090",
         "interface": "PCIe",
         "memory_size": "24Gi"
