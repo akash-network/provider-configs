@@ -1,4 +1,14 @@
 {
+  "10b0": {
+    "name": "nvidia",
+    "devices": {
+      "2684": {
+        "name": "rtx4090",
+        "interface": "PCIe",
+        "memory_size": "24Gi"
+      }
+    }
+  },
   "10de": {
     "name": "nvidia",
     "devices": {
