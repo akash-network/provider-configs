@@ -37,6 +37,11 @@
         "interface": "SXM4",
         "memory_size": "80Gi"
       },
+      "147f": {
+        "name": "a100",
+        "interface": "SXM4",
+        "memory_size": "80Gi"
+      },
       "20f3": {
         "name": "a800",
         "interface": "SXM4",
