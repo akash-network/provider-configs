@@ -387,6 +387,11 @@
         "interface": "PCIe",
         "memory_size": "24Gi"
       },
+      "2b85": {
+        "name": "rtx5090",
+        "interface": "PCIe",
+        "memory_size": "32Gi"
+      },
       "2335": {
         "name": "h200",
         "interface": "SXM5",
