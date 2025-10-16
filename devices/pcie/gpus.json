@@ -392,6 +392,11 @@
         "interface": "PCIe",
         "memory_size": "32Gi"
       },
+      "2c02": {
+        "name": "rtx5080",
+        "interface": "PCIe",
+        "memory_size": "16Gi"
+      },
       "2335": {
         "name": "h200",
         "interface": "SXM5",
