@@ -426,6 +426,11 @@
         "name": "pro6000se",
         "interface": "PCIe",
         "memory_size": "96Gi"
+      },
+      "2bb1": {
+        "name": "pro6000we",
+        "interface": "PCIe",
+        "memory_size": "96Gi"
       }
     }
   },
