@@ -402,6 +402,11 @@
         "interface": "SXM5",
         "memory_size": "141Gi"
       },
+      "233b": {
+        "name": "h200nvl",
+        "interface": "PCIe",
+        "memory_size": "141Gi"
+      },
       "1eb8": {
         "name": "t4",
         "interface": "PCIe",
