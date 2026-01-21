@@ -367,6 +367,11 @@
         "interface": "PCIe",
         "memory_size": "12Gi"
       },
+      "2783": {
+        "name": "rtx4070super",
+        "interface": "PCIe",
+        "memory_size": "12Gi"
+      },
       "2704": {
         "name": "rtx4080",
         "interface": "PCIe",
