@@ -113,7 +113,7 @@
         "memory_size": "4Gi"
       },
       "2187": {
-        "name": "gtx1650super",
+        "name": "gtx1650s",
         "interface": "PCIe",
         "memory_size": "4Gi"
       },
@@ -193,7 +193,7 @@
         "memory_size": "8Gi"
       },
       "27b0": {
-        "name": "rtx4000sffada",
+        "name": "rtx4000sada",
         "interface": "PCIe",
         "memory_size": "20Gi"
       },
@@ -263,7 +263,7 @@
         "memory_size": "6Gi"
       },
       "1f06": {
-        "name": "rtx2060super",
+        "name": "rtx2060s",
         "interface": "PCIe",
         "memory_size": "8Gi"
       },
@@ -273,7 +273,7 @@
         "memory_size": "8Gi"
       },
       "1e84": {
-        "name": "rtx2070super",
+        "name": "rtx2070s",
         "interface": "PCIe",
         "memory_size": "8Gi"
       },
@@ -283,7 +283,7 @@
         "memory_size": "8Gi"
       },
       "1e81": {
-        "name": "rtx2080super",
+        "name": "rtx2080s",
         "interface": "PCIe",
         "memory_size": "8Gi"
       },
@@ -367,13 +367,18 @@
         "interface": "PCIe",
         "memory_size": "12Gi"
       },
+      "2783": {
+        "name": "rtx4070s",
+        "interface": "PCIe",
+        "memory_size": "12Gi"
+      },
       "2704": {
         "name": "rtx4080",
         "interface": "PCIe",
         "memory_size": "16Gi"
       },
       "2702": {
-        "name": "rtx4080super",
+        "name": "rtx4080s",
         "interface": "PCIe",
         "memory_size": "16Gi"
       },
