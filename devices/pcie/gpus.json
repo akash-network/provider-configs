@@ -442,6 +442,11 @@
         "interface": "PCIe",
         "memory_size": "141Gi"
       }
+      "2f04": {
+        "name": "rtx5070",
+        "interface": "PCIe",
+        "memory_size": "12Gi"
+      }
     }
   },
   "1002": {
@@ -456,10 +461,6 @@
         "name": "mi100",
         "interface": "PCIe",
         "memory_size": "32Gi"
-      }"2f04": {
-        "name": "rtx5070",
-        "interface": "PCIe",
-        "memory_size": "12Gi"
       }
     }
   }
