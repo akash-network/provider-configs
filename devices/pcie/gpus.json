@@ -247,6 +247,11 @@
         "interface": "PCIe",
         "memory_size": "24Gi"
       },
+      "2f04": {
+        "name": "rtx5070",
+        "interface": "PCIe",
+        "memory_size": "12Gi"
+      },
       "2c02": {
         "name": "rtx5080",
         "interface": "PCIe",
@@ -442,6 +447,7 @@
         "interface": "PCIe",
         "memory_size": "141Gi"
       }
+      
     }
   },
   "1002": {
