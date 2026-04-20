@@ -313,9 +313,9 @@
         "memory_size": "16Gi"
       },
       "1e30": {
-        "name": "rtx8000",
+        "name": "rtx6000",
         "interface": "PCIe",
-        "memory_size": "48Gi"
+        "memory_size": "24Gi"
       },
       "1e78": {
         "name": "rtx8000",
@@ -339,6 +339,11 @@
       },
       "2bb1": {
         "name": "pro6000we",
+        "interface": "PCIe",
+        "memory_size": "96Gi"
+      },
+      "2bb4": {
+        "name": "pro6000mq",
         "interface": "PCIe",
         "memory_size": "96Gi"
       },
