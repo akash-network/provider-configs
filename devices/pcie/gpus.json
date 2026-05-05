@@ -157,6 +157,11 @@
         "interface": "PCIe",
         "memory_size": "12Gi"
       },
+      "2503": {
+        "name": "rtx3060",
+        "interface": "PCIe",
+        "memory_size": "12Gi"
+      },
       "2504": {
         "name": "rtx3060",
         "interface": "PCIe",
