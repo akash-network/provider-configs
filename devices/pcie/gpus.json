@@ -451,6 +451,11 @@
         "name": "h200nvl",
         "interface": "PCIe",
         "memory_size": "141Gi"
+      },
+      "2231": {
+        "name": "a5000",
+        "interface": "PCIe",
+        "memory_size": "24Gi"
       }
       
     }
