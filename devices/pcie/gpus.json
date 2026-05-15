@@ -168,6 +168,11 @@
         "memory_size": "12Gi"
       },
       "2520": {
+        "name": "rtx3060m2",
+        "interface": "PCIe",
+        "memory_size": "6Gi"
+      },
+      "2560": {
         "name": "rtx3060m",
         "interface": "PCIe",
         "memory_size": "6Gi"
