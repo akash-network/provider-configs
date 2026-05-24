@@ -262,6 +262,11 @@
         "interface": "PCIe",
         "memory_size": "24Gi"
       },
+      "2d04":{
+        "name": "rtx5060ti",
+        "interface": "PCIe",
+        "memory_size": "16Gi"
+      },
       "2f04": {
         "name": "rtx5070",
         "interface": "PCIe",
