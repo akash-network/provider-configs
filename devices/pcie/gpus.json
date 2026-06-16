@@ -407,6 +407,11 @@
         "interface": "SXM3",
         "memory_size": "32Gi"
       },
+      "1df0": {
+        "name": "v100",
+        "interface": "PCIe",
+        "memory_size": "32Gi"
+      },
       "2235": {
         "name": "a40",
         "interface": "PCIe",
