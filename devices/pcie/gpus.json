@@ -481,8 +481,22 @@
         "name": "a5000",
         "interface": "PCIe",
         "memory_size": "24Gi"
+      },
+      "27b8": {
+        "name": "l4",
+        "interface": "PCIe",
+        "memory_size": "24Gi"
+      },
+      "26b9": {
+        "name": "l40s",
+        "interface": "PCIe",
+        "memory_size": "48Gi"
+      },
+      "2901": {
+        "name": "b200",
+        "interface": "SXM6",
+        "memory_size": "192Gi"
       }
-      
     }
   },
   "1002": {
@@ -497,6 +511,31 @@
         "name": "mi100",
         "interface": "PCIe",
         "memory_size": "32Gi"
+      },
+      "740c": {
+        "name": "mi250x",
+        "interface": "OAM",
+        "memory_size": "128Gi"
+      },
+      "74a0": {
+        "name": "mi300a",
+        "interface": "OAM",
+        "memory_size": "128Gi"
+      },
+      "74a1": {
+        "name": "mi300x",
+        "interface": "OAM",
+        "memory_size": "192Gi"
+      },
+      "74a5": {
+        "name": "mi325x",
+        "interface": "OAM",
+        "memory_size": "256Gi"
+      },
+      "75a0": {
+        "name": "mi350x",
+        "interface": "OAM",
+        "memory_size": "288Gi"
       }
     }
   }
