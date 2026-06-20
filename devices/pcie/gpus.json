@@ -526,16 +526,6 @@
         "name": "mi300x",
         "interface": "OAM",
         "memory_size": "192Gi"
-      },
-      "74a5": {
-        "name": "mi325x",
-        "interface": "OAM",
-        "memory_size": "256Gi"
-      },
-      "75a0": {
-        "name": "mi350x",
-        "interface": "OAM",
-        "memory_size": "288Gi"
       }
     }
   }
