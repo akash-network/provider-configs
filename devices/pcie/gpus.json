@@ -467,6 +467,11 @@
         "interface": "PCIe",
         "memory_size": "80Gi"
       },
+      "2321": {
+        "name": "h100nvl",
+        "interface": "PCIe",
+        "memory_size": "94Gi"
+      },
       "2335": {
         "name": "h200",
         "interface": "SXM5",
