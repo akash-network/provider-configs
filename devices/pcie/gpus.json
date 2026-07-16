@@ -257,6 +257,11 @@
         "interface": "PCIe",
         "memory_size": "24Gi"
       },
+      "26b9": {
+        "name": "l40s",
+        "interface": "PCIe",
+        "memory_size": "48Gi"
+      },
       "f297": {
         "name": "rtx4090",
         "interface": "PCIe",
