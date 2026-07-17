@@ -417,6 +417,11 @@
         "interface": "PCIe",
         "memory_size": "48Gi"
       },
+      "26b9": {
+        "name": "l40s",
+        "interface": "PCIe",
+        "memory_size": "48Gi"
+      },
       "147f": {
         "name": "a100",
         "interface": "SXM4",
