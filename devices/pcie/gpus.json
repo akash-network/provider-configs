@@ -477,6 +477,11 @@
         "interface": "PCIe",
         "memory_size": "141Gi"
       },
+      "3182": {
+        "name": "b300",
+        "interface": "SXM6",
+        "memory_size": "288Gi"
+      },
       "2231": {
         "name": "a5000",
         "interface": "PCIe",
