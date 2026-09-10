@@ -202,6 +202,11 @@
         "interface": "PCIe",
         "memory_size": "10Gi"
       },
+      "2206": {
+        "name": "rtx3080",
+        "interface": "PCIe",
+        "memory_size": "10Gi"
+      },
       "2204": {
         "name": "rtx3090",
         "interface": "PCIe",
