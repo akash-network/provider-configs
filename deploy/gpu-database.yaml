@@ -1,0 +1,111 @@
+---
+# Deployment
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: akash-gpu-database
+  namespace: akash-services
+  labels:
+    app: akash-gpu-database
+    version: v21
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: akash-gpu-database
+  template:
+    metadata:
+      labels:
+        app: akash-gpu-database
+        version: v21
+    spec:
+      containers:
+      - name: akash-gpu-database
+        image: scarruthers/pciedatabase:v21
+        ports:
+        - containerPort: 443
+          name: https
+          protocol: TCP
+        resources:
+          requests:
+            memory: "512Mi"
+            cpu: "1000m"
+          limits:
+            memory: "1Gi"
+            cpu: "2000m"
+        livenessProbe:
+          httpGet:
+            path: /health
+            port: 443
+            scheme: HTTPS
+          initialDelaySeconds: 30
+          periodSeconds: 30
+          timeoutSeconds: 10
+          failureThreshold: 3
+        readinessProbe:
+          httpGet:
+            path: /health
+            port: 443
+            scheme: HTTPS
+          initialDelaySeconds: 15
+          periodSeconds: 10
+          timeoutSeconds: 5
+          failureThreshold: 3
+        env:
+        - name: TZ
+          value: "UTC"
+      restartPolicy: Always
+      terminationGracePeriodSeconds: 30
+
+---
+# Service
+apiVersion: v1
+kind: Service
+metadata:
+  name: akash-gpu-database-service
+  namespace: akash-services
+  labels:
+    app: akash-gpu-database
+spec:
+  type: ClusterIP
+  ports:
+  - port: 443
+    targetPort: 443
+    protocol: TCP
+    name: https
+  selector:
+    app: akash-gpu-database
+
+---
+# Ingress
+apiVersion: networking.k8s.io/v1
+kind: Ingress
+metadata:
+  name: akash-gpu-database-ingress
+  namespace: akash-services
+  labels:
+    app: akash-gpu-database
+  annotations:
+    nginx.ingress.kubernetes.io/ssl-redirect: "true"
+    nginx.ingress.kubernetes.io/backend-protocol: "HTTPS"
+    nginx.ingress.kubernetes.io/proxy-ssl-verify: "false"
+spec:
+  ingressClassName: akash-ingress-class
+  rules:
+  - host: provider-configs.akash.network
+    http:
+      paths:
+      - path: /devices/gpus
+        pathType: Prefix
+        backend:
+          service:
+            name: akash-gpu-database-service
+            port:
+              number: 443
+      - path: /health
+        pathType: Exact
+        backend:
+          service:
+            name: akash-gpu-database-service
+            port:
+              number: 443
