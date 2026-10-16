@@ -152,6 +152,11 @@
         "interface": "PCIe",
         "memory_size": "11Gi"
       },
+      "24b0": {
+        "name": "a4000",
+        "interface": "PCIe",
+        "memory_size": "16Gi"
+      },
       "2487": {
         "name": "rtx3060",
         "interface": "PCIe",
